@@ -1,0 +1,26 @@
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n*factorial(n-1)
+#n
+#S=0
+#for i in range(n):
+#    S=S+(1/factorial(i))
+#print("e=",S)
+
+#n=10
+S=0
+for i in range(10):
+    S=S+(1/factorial(i))
+print("e=",S)
+#n=100
+S=0
+for i in range(100):
+    S=S+(1/factorial(i))
+print("e=",S)
+#n=1000
+S=0
+for i in range(1000):
+    S=S+(1/factorial(i))
+print("e=",S)
